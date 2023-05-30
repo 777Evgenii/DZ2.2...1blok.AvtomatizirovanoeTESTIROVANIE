@@ -18,7 +18,7 @@ class ApiTest {
                 .then()
                 .statusCode(200)
                 .contentType(ContentType.JSON)
-                .body("data", equalTo("-1993"))
+                .body("data", equalTo("1993"))
         ;
     }
 }
